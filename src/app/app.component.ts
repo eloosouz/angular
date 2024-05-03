@@ -11,6 +11,8 @@ export class AppComponent {
 
   clientePremium = false
 
+  nome = ""
+
   valores = [{
     descricao: 'teste',
     nome: 'nome',
@@ -21,4 +23,8 @@ export class AppComponent {
       id: 2
     
   }]
+  adicionar() {
+    this.valores.push({descricao: 'adicionado', nome: this.nome, id: 3 })
+  }
 }
+
