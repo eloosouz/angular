@@ -9,6 +9,7 @@ import { FormsModule } from '@angular/forms';
 import { ClientListPage } from './pages/client-list-page.component';
 import { BindingPageComponent } from './pages/binding-page-component';
 import { CustomUpperCasePipe } from './pipe/custom-uppercase-pipe';
+import { ClientService } from './services/client.service';
 
 
 @NgModule({
@@ -28,7 +29,7 @@ import { CustomUpperCasePipe } from './pipe/custom-uppercase-pipe';
      
     
   ],
-  providers: [],
+  providers: [ClientService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
