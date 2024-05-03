@@ -11,8 +11,9 @@ export class AppComponent {
 
   clientePremium = false
 
-  nome = ""
+  nome = "elo souza"
 
+ 
   valores = [{
     descricao: 'teste',
     nome: 'nome',
@@ -23,6 +24,11 @@ export class AppComponent {
       id: 2
     
   }]
+
+  umadata = new Date ()
+
+  umDinheiro = 10.5
+
   adicionar() {
     this.valores.push({descricao: 'adicionado', nome: this.nome, id: 3 })
   }
