@@ -2,3 +2,22 @@
 <app-header></app-header>
 
 <router-outlet></router-outlet>
+
+
+
+<div *ngIf="clientePremium; else naopremium">
+
+    <p>Você é um cliente premium tem acesso a informações diferenciadas</p>
+
+
+</div>
+<ng-template #naopremium>
+    Não é um cliente premium
+</ng-template>
+
+<ul *ngFor="let valor of valores">
+    <li> {{valor.id}}  - {{valor.nome}} - {{valor.descricao}} </li>
+    
+  
+</ul>
+

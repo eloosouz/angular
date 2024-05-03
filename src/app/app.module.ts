@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header.component';
 import { ComponentModule } from './components/components.module';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { ComponentModule } from './components/components.module';
   imports: [
     BrowserModule,
     ComponentModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
     
   ],
   providers: [],
