@@ -8,6 +8,6 @@ import { Component } from "@angular/core";
 
 export class ClientListPage {
     clientePremium= true
-    clients = ['Client 1', 'Client 2']
+    clients = [{ id:1 ,nome: 'Client 1'}, {id:2, nome: 'Client 2'}]
 
 }

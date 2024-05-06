@@ -14,6 +14,7 @@ import { Filho1PageComponent } from './pages/filho1-page.component';
 import { Filho2PageComponent } from './pages/filho2-page.component';
 import { PaiPageComponent } from './pages/pai.component';
 import { LoginPageComponent } from './pages/login-page.component';
+import { ClienteDetalhePageComponent } from './pages/client-detalhe-page.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { LoginPageComponent } from './pages/login-page.component';
     Filho1PageComponent,
     Filho2PageComponent,
     ClientListPage,
-    LoginPageComponent
+    LoginPageComponent,
+    ClienteDetalhePageComponent
     
   ],
 
