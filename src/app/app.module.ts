@@ -13,6 +13,7 @@ import { ClientService } from './services/client.service';
 import { Filho1PageComponent } from './pages/filho1-page.component';
 import { Filho2PageComponent } from './pages/filho2-page.component';
 import { PaiPageComponent } from './pages/pai.component';
+import { LoginPageComponent } from './pages/login-page.component';
 
 
 @NgModule({
@@ -23,7 +24,9 @@ import { PaiPageComponent } from './pages/pai.component';
     CustomUpperCasePipe,
     PaiPageComponent,
     Filho1PageComponent,
-    Filho2PageComponent
+    Filho2PageComponent,
+    ClientListPage,
+    LoginPageComponent
     
   ],
 
