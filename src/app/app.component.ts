@@ -11,7 +11,7 @@ export class AppComponent {
   title = 'app-primeira-aula';
   descricao1 = 'Descricao';
 
-  clientePremium = false
+  clientePremium = true
 
   nome = "elo souza"
 

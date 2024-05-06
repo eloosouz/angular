@@ -10,6 +10,9 @@ import { ClientListPage } from './pages/client-list-page.component';
 import { BindingPageComponent } from './pages/binding-page-component';
 import { CustomUpperCasePipe } from './pipe/custom-uppercase-pipe';
 import { ClientService } from './services/client.service';
+import { Filho1PageComponent } from './pages/filho1-page.component';
+import { Filho2PageComponent } from './pages/filho2-page.component';
+import { PaiPageComponent } from './pages/pai.component';
 
 
 @NgModule({
@@ -17,7 +20,10 @@ import { ClientService } from './services/client.service';
     AppComponent,
     ClientListPage,
     BindingPageComponent,
-    CustomUpperCasePipe
+    CustomUpperCasePipe,
+    PaiPageComponent,
+    Filho1PageComponent,
+    Filho2PageComponent
     
   ],
 
