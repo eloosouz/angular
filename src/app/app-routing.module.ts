@@ -7,8 +7,10 @@ import { PaiPageComponent } from './pages/pai.component';
 import { UserGuard } from './guards/user.guard';
 import { LoginPageComponent } from './pages/login-page.component';
 import { ClienteDetalhePageComponent } from './pages/client-detalhe-page.component';
+import { RXJSPageComponent } from './pages/rxjs-page.component';
 
-const routes: Routes = [
+const routes: Routes = [ 
+  
   {path: 'client', component: ClientListPage, canActivate :[UserGuard],
 
   },{
@@ -19,7 +21,12 @@ const routes: Routes = [
     ],
   },
    {path: 'login', component: LoginPageComponent},
-   {path: 'client/detalhe/:id', component: ClienteDetalhePageComponent}
+   {path: 'client/detalhe/:id', component: ClienteDetalhePageComponent},
+   
+   
+   { path: 'rxjs', component: RXJSPageComponent }
+   
+
 ];
 
 

@@ -3,7 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './components/header.component';
 import { ComponentModule } from './components/components.module';
 import { FormsModule } from '@angular/forms';
 import { ClientListPage } from './pages/client-list-page.component';
@@ -16,6 +15,7 @@ import { PaiPageComponent } from './pages/pai.component';
 import { LoginPageComponent } from './pages/login-page.component';
 import { ClienteDetalhePageComponent } from './pages/client-detalhe-page.component';
 import { RXJSPageComponent } from './pages/rxjs-page.component';
+import { Router } from '@angular/router';
 
 
 
@@ -42,6 +42,7 @@ import { RXJSPageComponent } from './pages/rxjs-page.component';
     ComponentModule,
     AppRoutingModule,
     FormsModule,
+    
     
      
     

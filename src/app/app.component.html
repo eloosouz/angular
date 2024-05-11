@@ -1,11 +1,20 @@
 <h1>Aplicação</h1>
 <app-header></app-header>
-<a [routerLink]="['pai']"> Ir para component pai </a>
+<a [routerLink]="['pai']"> Ir para component pai </a> <br> 
+
+<a  [routerLink]="['/rxjs']">Ir para RXJS </a> <br>
+
 
 <router-outlet> </router-outlet>
 
 
-<!--
+
+
+
+
+
+
+<!-- 
 <div *ngIf="clientePremium; else naopremium">
 
     <p>Você é um cliente premium tem acesso a informações diferenciadas</p>
@@ -33,5 +42,5 @@
 <p>Customizado uppercase: {{nome | appUppercase}}</p>
 
 <button (click)="sayHello()">Diga olá pelo service</button>
--->
 
+-->
