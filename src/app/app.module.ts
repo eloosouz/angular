@@ -15,6 +15,9 @@ import { Filho2PageComponent } from './pages/filho2-page.component';
 import { PaiPageComponent } from './pages/pai.component';
 import { LoginPageComponent } from './pages/login-page.component';
 import { ClienteDetalhePageComponent } from './pages/client-detalhe-page.component';
+import { RXJSPageComponent } from './pages/rxjs-page.component';
+
+
 
 
 @NgModule({
@@ -28,7 +31,9 @@ import { ClienteDetalhePageComponent } from './pages/client-detalhe-page.compone
     Filho2PageComponent,
     ClientListPage,
     LoginPageComponent,
-    ClienteDetalhePageComponent
+    ClienteDetalhePageComponent,
+    RXJSPageComponent
+   
     
   ],
 
@@ -37,6 +42,7 @@ import { ClienteDetalhePageComponent } from './pages/client-detalhe-page.compone
     ComponentModule,
     AppRoutingModule,
     FormsModule,
+    
      
     
   ],
