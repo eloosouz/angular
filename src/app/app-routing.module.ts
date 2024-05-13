@@ -9,6 +9,7 @@ import { LoginPageComponent } from './pages/login-page.component';
 import { ClienteDetalhePageComponent } from './pages/client-detalhe-page.component';
 import { RXJSPageComponent } from './pages/rxjs-page.component';
 import { ListaPessoasPage } from './pages/lista-pessoas-page.component';
+import { UserPageComponent } from './pages/user-page.component';
 
 const routes: Routes = [ 
   
@@ -27,7 +28,9 @@ const routes: Routes = [
    
    { path: 'rxjs', component: RXJSPageComponent },
 
-   {path:'pessoa', component: ListaPessoasPage}
+   {path:'pessoa', component: ListaPessoasPage},
+
+   {path: 'user', component: UserPageComponent}
    
 
 ];

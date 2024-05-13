@@ -18,6 +18,7 @@ import { RXJSPageComponent } from './pages/rxjs-page.component';
 import { Router } from '@angular/router';
 import { ListaPessoasPage } from './pages/lista-pessoas-page.component';
 import { HttpClientModule } from '@angular/common/http';
+import { UserPageComponent } from './pages/user-page.component';
 
 
 
@@ -35,7 +36,8 @@ import { HttpClientModule } from '@angular/common/http';
     LoginPageComponent,
     ClienteDetalhePageComponent,
     RXJSPageComponent,
-    ListaPessoasPage
+    ListaPessoasPage,
+    UserPageComponent
    
     
   ],
