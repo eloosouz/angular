@@ -8,6 +8,7 @@ import { UserGuard } from './guards/user.guard';
 import { LoginPageComponent } from './pages/login-page.component';
 import { ClienteDetalhePageComponent } from './pages/client-detalhe-page.component';
 import { RXJSPageComponent } from './pages/rxjs-page.component';
+import { ListaPessoasPage } from './pages/lista-pessoas-page.component';
 
 const routes: Routes = [ 
   
@@ -24,7 +25,9 @@ const routes: Routes = [
    {path: 'client/detalhe/:id', component: ClienteDetalhePageComponent},
    
    
-   { path: 'rxjs', component: RXJSPageComponent }
+   { path: 'rxjs', component: RXJSPageComponent },
+
+   {path:'pessoa', component: ListaPessoasPage}
    
 
 ];
